@@ -1,0 +1,14 @@
+name: LoaiTeams
+version: '${project.version}'
+main: me.loaidev.teams.Teams
+api-version: 1.18
+authors: [ LoaiA ]
+description: Teams for players.
+commands:
+  teamchat:
+    description: Send a message in your team's chat.
+    permission: teams.chat
+    aliases: [tc]
+  teams:
+    description: Manage your team.
+    permission: teams.teams
